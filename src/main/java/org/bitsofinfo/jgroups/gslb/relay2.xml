@@ -1,0 +1,15 @@
+<RelayConfiguration xmlns="urn:jgroups:relay:1.0">
+	<sites>
+		<site name="site1" id="0">
+			<bridges>
+				<bridge config="global_tcp1.xml" name="global" />
+			</bridges>
+		</site>
+
+		<site name="site2" id="1">
+			<bridges>
+				<bridge config="global_tcp2.xml" name="global" />
+			</bridges>
+		</site>
+	</sites>
+</RelayConfiguration>
